@@ -27,7 +27,6 @@ Problem Scenarios
 
 Maria is expected to be equipped with updated information as she holds the meeting with the parents. Unfortunately, the record room is in the basement. She teaches 5 classes and it’s practically impossible to remember the records of students from all her classes, therefore she needs to consult student records.
 
-
 Current Alternatives
 ^^^^^^^^^^^^^^^^^^^^
 
@@ -48,17 +47,13 @@ Acceptance Stories
 ^^^^^^^^^^^^^^^^^^
 
 -[Acceptance Story 1: Individual student report by course]
-``````````````````````````````````````````````````````````
 Given that I want to generate quick reports for each student, first the system should ask me if I need it for one course. On providing the name of the course for that particular student, an accurate report should be quickly generated.
 
 -[Acceptance Story 2: Individual student report for all courses]
-````````````````````````````````````````````````````````````````
 Given that there would be situations when I would require one student’s performance in all courses. In that case the system should ask me if the report is for one course or all courses, and then ask for the name and grade of the student. With this information a summary report of one student’s performance in all courses should quickly be prepared.
 
 -[Acceptance Story 3: Class report by course]
-````````````````````````````````````````````
 Given that in certain situations I need to see the performance of the whole class, when the system asks me if I need a report for one grade, and which course. Then on providing that information the system generates a class report for one specific course. 
 
 -[Acceptance Story 4: Class report for all courses]
-``````````````````````````````````````````````````
 Given that in certain situations I need to see the performance of one class in all courses, when the system asks if I need data for one grade or all grades, I select one grade, and when the system asks if I need information for one specific course or all courses, I select all courses, then a quick summary report is generated containing one grade’s performance on all courses.
