@@ -4,8 +4,8 @@ Student Progress Tracking System
 
 Student Progress Tracking System is a tool that would put student progress reports at teachers’ fingertips. This information always comes in handy to hold spur of the moment parent-teacher conferences.
 
-Personas
-========
+1. Personas
+===========
 
 Maria Jones, 
 
@@ -19,8 +19,8 @@ Goals:
 -----
 To obtain student records in a very short span of time, in order to hold a successful parent-teacher conference.
 
-Problem Scenarios
-=================
+2. Problem Scenarios
+====================
 
 Maria is expected to be equipped with updated information as she holds the meeting with the parents. Unfortunately, the record room is in the basement. She teaches 5 classes and it’s practically impossible to remember the records of students from all her classes, therefore she needs to consult student records.
 
@@ -32,8 +32,8 @@ Value Proposition:
 ------------------
 As a cost effective make shift arrangement, use the Progress Tracking System that simplifies the whole procedure of retrieving relevant students’ records. 
 
-User Stories
-============
+3. User Stories
+===============
 
 User Story 01:
 --------------
@@ -44,8 +44,8 @@ User Story 02:
 Student Progress Tracking System would also enable me to obtain the academic performance records of the whole class. If I need to track the whole classes' performance on a specific subject or on all subjects, or even tabulate class averages, this system will be of use to me. This would prepare me better for my parent-teacher conferences.
 
 
-Acceptance Stories
-==================
+4. Acceptance Stories
+=====================
 
 Scenario 1: User Story 01: Obtaining Student's Score in a Specific Course:
 --------------------------------------------------------------------------
