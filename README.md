@@ -62,7 +62,7 @@ Then I will be taken to a screen where I can see, for each of the student's cour
 
 Scenario 3: (User Story 02) Obtaining Class's Summary in a Specific Course:
 ---------------------------------------------------------------------------
-Given the I would like to create a class's test summary in a specific course
+Given that I would like to create a class's test summary in a specific course
 And I have provided the grade, section, and the course name
 When I enter this information 
 Then I will be taken to a screen where I can see, for that specific course, the list of tests taken 
@@ -70,7 +70,7 @@ And date of test, possible score, average score, minimum score, maximum score, m
 
 Scenario 4: (User Story 02) Obtaining Class's Summary in All Courses:
 ---------------------------------------------------------------------
-Given the I would like to create a class's test summary in all courses
+Given that I would like to create a class's test summary in all courses
 And I have provided the grade, and section
 When I enter this information 
 Then I will be taken to a screen where I can see, for each course, the list of tests taken 
