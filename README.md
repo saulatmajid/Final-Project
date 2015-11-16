@@ -47,32 +47,31 @@ Student Progress Tracking System would also enable me to obtain the academic per
 4. Acceptance Stories
 =====================
 
-Scenario 1: User Story 01: Obtaining Student's Score in a Specific Course:
+Scenario 1: (User Story 01) Obtaining Student's Score in a Specific Course:
 --------------------------------------------------------------------------
-Given the inetntion that I would like to create a student's report 
-And I have provided the student's name, grade, course, section, 
+Given that I would like to see a student's performance on a specific course 
+And I have provided the student's name, grade, course, and section, 
 When I enter this information 
-Then I will be taken to a screen where I can see the student's score, date of test, possible score, score obtained, any notes   pertaining to student's performance on the test. 
+Then I will be taken to a screen where I can see the student's score, date of test, possible score on this test, score obtained on this test, any notes pertaining to student's performance on the test. 
 
-Scenario 2: User Story 01: Obtaining Student's Score in All Courses:
+Scenario 2: (User Story 01) Obtaining Student's Score in All Courses:
 --------------------------------------------------------------------
-Given that there would be situations where I would require one student’s performance in all courses, I will provide the list   of students' names, student's grade, section and names of all courses. 
+Given that I would require a student’s performance in all his/her courses, and I have provided the student's name, student's grade, and section. 
 When I enter this information 
-Then I will be taken to a screen where I can see student's scores in all the courses, 
-And possible points for each score, date of tests, 
-And any notes on student's overall performance in the class. 
+Then I will be taken to a screen where I can see, for each of the student's courses, his/her score, date of test, possible score on this test, score obtained on this test, any notes pertaining to student's performance on the test. 
 
-Scenario 3: User Story 02: Obtaining Class's Score in a Specific Course:
-------------------------------------------------------------------------
-Given the inetntion that I would like to create a class's report 
-And I have provided the grade, course, section, 
+Scenario 3: (User Story 02) Obtaining Class's Summary in a Specific Course:
+---------------------------------------------------------------------------
+Given the I would like to create a class's test summary in a specific course
+And I have provided the grade, section, and the course name
 When I enter this information 
-Then I will be taken to a screen where I can see the whole class's score on a specific course, date of test, possible score,   score obtained, any notes pertaining to the overall performance of the whole class on a specific course.
+Then I will be taken to a screen where I can see, for that specific course, the list of tests taken 
+And date of test, possible score, average score, minimum score, maximum score, median score and any notes pertaining to the test.
 
-Scenario 4: User Story 02: Obtaining Class's Score in All Courses:
-------------------------------------------------------------------
-Given that there would be situations where I would require information about the entire class’s performance in all courses, I   will provide the list of student's names, grade, section and names of all the courses. 
+Scenario 4: (User Story 02) Obtaining Class's Summary in All Courses:
+---------------------------------------------------------------------
+Given the I would like to create a class's test summary in all courses
+And I have provided the grade, and section
 When I enter this information 
-Then I will be taken to a screen where I can see the class's scores in all courses, 
-And possible points for each score, date of tests, 
-And any notes on overall performance of the whole class. 
+Then I will be taken to a screen where I can see, for each course, the list of tests taken 
+And date of test, possible score, average score, minimum score, maximum score, median score and any notes pertaining to the test.
