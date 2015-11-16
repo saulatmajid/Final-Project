@@ -35,24 +35,44 @@ As a cost effective make shift arrangement, use the Progress Tracking System tha
 User Stories
 ============
 
-As Maria, I want to use Progress Tracking System, so that I can retrieve students’ records easily. It would enable me not only to obtain individual/ whole class test scores, course by course reports of individual students, but also overall class averages etc. This would prepare me better for my parent-teacher conferences.
+User Story 01:
+--------------
+As Maria, I want to use Progress Tracking System, so that I can retrieve students’ individual records of either one specific course of a student or all courses s/he is enrolled in. This system will get me ready for my parent-teacher conferences.
+
+User Story 02:
+--------------
+Student Progress Tracking System would also enable me to obtain the academic performance records of the whole class. If I need to track the whole classes' performance on a specific subject or on all subjects, or even tabulate class averages, this system will be of use to me. This would prepare me better for my parent-teacher conferences.
 
 
 Acceptance Stories
 ==================
 
--[Acceptance Story 1: Individual student report by course]
-----------------------------------------------------------
-Given that I want to generate quick reports for each student, first the system should ask me if I need it for one course. On providing the name of the course for that particular student, an accurate report should be quickly generated.
+Scenario 1: User Story 01: Obtaining Student's Score in a Specific Course:
+--------------------------------------------------------------------------
+Given the inetntion that I would like to create a student's report 
+And I have provided the student's name, grade, course, section, 
+When I enter this information 
+Then I will be taken to a screen where I can see the student's score, date of test, possible score, score obtained, any notes   pertaining to student's performance on the test. 
 
--[Acceptance Story 2: Individual student report for all courses]
-----------------------------------------------------------------
-Given that there would be situations when I would require one student’s performance in all courses. In that case the system should ask me if the report is for one course or all courses, and then ask for the name and grade of the student. With this information a summary report of one student’s performance in all courses should quickly be prepared.
+Scenario 2: User Story 01: Obtaining Student's Score in All Courses:
+--------------------------------------------------------------------
+Given that there would be situations where I would require one student’s performance in all courses, I will provide the list   of students' names, student's grade, section and names of all courses. 
+When I enter this information 
+Then I will be taken to a screen where I can see student's scores in all the courses, 
+And possible points for each score, date of tests, 
+And any notes on student's overall performance in the class. 
 
--[Acceptance Story 3: Class report by course]
----------------------------------------------
-Given that in certain situations I need to see the performance of the whole class, when the system asks me if I need a report for one grade, and which course. Then on providing that information the system generates a class report for one specific course. 
+Scenario 3: User Story 02: Obtaining Class's Score in a Specific Course:
+------------------------------------------------------------------------
+Given the inetntion that I would like to create a class's report 
+And I have provided the grade, course, section, 
+When I enter this information 
+Then I will be taken to a screen where I can see the whole class's score on a specific course, date of test, possible score,   score obtained, any notes pertaining to the overall performance of the whole class on a specific course.
 
--[Acceptance Story 4: Class report for all courses]
----------------------------------------------------
-Given that in certain situations I need to see the performance of one class in all courses, when the system asks if I need data for one grade or all grades, I select one grade, and when the system asks if I need information for one specific course or all courses, I select all courses, then a quick summary report is generated containing one grade’s performance on all courses.
+Scenario 4: User Story 02: Obtaining Class's Score in All Courses:
+------------------------------------------------------------------
+Given that there would be situations where I would require information about the entire class’s performance in all courses, I   will provide the list of student's names, grade, section and names of all the courses. 
+When I enter this information 
+Then I will be taken to a screen where I can see the class's scores in all courses, 
+And possible points for each score, date of tests, 
+And any notes on overall performance of the whole class. 
