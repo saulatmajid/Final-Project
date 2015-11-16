@@ -7,8 +7,8 @@ Student Progress Tracking System is a tool that would put student progress repor
 Personas
 ========
 
-[Maria Jones]
--------------
+Maria Jones, 
+
 A young educationalist
 
 Details:
